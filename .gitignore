@@ -1,1 +1,4 @@
 /target
+gatling-run-*.log
+# Infra stays out of Maven repo clone on EC2 — keep terraform only on your workstation.
+/terraform/
